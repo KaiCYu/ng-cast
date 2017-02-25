@@ -6,7 +6,9 @@ angular.module('video-player')
     controllerAs: 'props',
     bindToController: true,
     controller: function($scope) {
-      console.log($scope);
+      // console.log($scope);
+      // debugger;
+      // $scope.videos = window.exampleVideoData;
     },
     templateUrl: 'src/templates/app.html'
   };

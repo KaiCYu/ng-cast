@@ -5,7 +5,7 @@ angular.module('video-player')
     controllerAs: 'props',
     bindToController: true,
     controller: function($scope) {
-      console.log($scope);
+      // console.log($scope);
     },
     templateUrl: 'src/templates/search.html'
   };
