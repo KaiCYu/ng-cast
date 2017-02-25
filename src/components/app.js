@@ -1,7 +1,13 @@
 angular.module('video-player')
 
 .directive('app', function() {
+
   return {
-    // TODO
+    controllerAs: 'props',
+    bindToController: true,
+    controller: function($scope) {
+      console.log($scope);
+    },
+    templateUrl: 'src/templates/app.html'
   };
 });
